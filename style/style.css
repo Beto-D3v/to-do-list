@@ -1,0 +1,195 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    background-color: #216d99;
+}
+
+header{
+    padding: 10px;
+    height: 70px;
+    width: 100%;
+    background-color: #0000003f;
+    color: rgb(255, 255, 255);
+   
+}
+
+h1{
+    text-align:center ;
+}
+
+#container{
+
+    position: relative;
+    top:100px;
+    width: 550px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.637);
+    margin: auto;
+    padding:5px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.144);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#textField{
+    position: relative;
+    left: 70px;
+    width: 280px;
+    padding: 5px;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.1rem;
+
+}
+
+.button{
+    position: relative;
+    left: 70px;
+    font-size: 1rem;
+    padding: 3px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.788);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button:hover{
+    background-color: #216d99;
+    color: azure;
+}
+
+hr{
+    width: 95%;
+    margin-bottom:15px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid black;
+    width:80%;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+}
+
+button{
+    float: right;
+    border: none;
+    background-color: #216d9900;
+    color:#216d99;
+    font-size:1.2rem;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+button:hover{
+    color: #063e58;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    #container{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    #textField{
+        display: block;
+        width: 350px;
+        left: 90px;
+    }
+
+    .button{
+        margin: 10px 0px 10px 10px;
+        left: 180px;
+        margin-top: 20px;
+    }
+
+    ul{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 545px) {
+    
+    #textField{
+        margin-bottom: 20px;
+        left: 80px;
+        width: 300px;
+    }
+
+    .button{
+        left: 140px;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+
+    li{
+        transform: translate(-15%, 30%);}
+
+    #textField{
+        left: 35px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .button{
+        left: 105px;}
+
+        li{
+            transform: translate(-2%, 30%);
+    }}
+
+@media screen and (max-width: 380px){
+
+    
+        #textField{
+            left: 22px;
+        }
+
+        .button{
+            left: 95px;
+        }
+    }
+
+
+    @media screen and (max-width: 365px){
+        #textField{
+            left: 5px;
+        }
+    
+        .button{
+            left: 85px;
+        }
+    
+        le{transform: translate(-20%, 30%); 
+    }
+    }
+    
+        @media screen and (max-width: 320px){
+            #textField{
+                left: -2px;
+            } 
+            li{
+                transform: translate(-5%, 30%);}  
+        }
